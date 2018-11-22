@@ -1,0 +1,88 @@
+.navbar-fixed {
+  position: absolute;
+  z-index: 999999999;
+}
+
+/* label focus color */
+.input-field input:focus+label {
+  color: white !important;
+}
+
+/* label underline focus color */
+.row .input-field input:focus {
+  border-bottom: 1px solid white !important;
+  box-shadow: 0 1px 0 0 white !important
+}
+
+.border {
+  font-size: 3.2vw;
+  border-style: solid;
+  border-color: white;
+  padding: 15px;
+}
+
+.full {
+  margin: 0 auto;
+}
+
+.no-padding {
+  padding: 0;
+}
+
+.image-full {
+  display: flex;
+  height: 100%;
+}
+
+.text-space {
+  margin-top: 0.8vw;
+}
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: 600px;
+  color: rgba(255, 255, 255, .9);
+}
+
+.parallax-container .section {
+  width: 100%;
+}
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
